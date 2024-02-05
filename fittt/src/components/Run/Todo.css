@@ -1,0 +1,30 @@
+
+.todo-container {
+  
+  background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  height: 900px;
+}
+
+
+.mai-container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 50px;
+  background-image: url("https://img.freepik.com/premium-photo/illustration-man-running-surface-lake-created-with-generative-ai_895561-78.jpg"); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 600px;
+}
+.todolist-header {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e0e0e0; /* Light background color for the header */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

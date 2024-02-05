@@ -1,0 +1,206 @@
+/* NutritionTracker.css */
+
+
+  .nutrition-tracker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(food4.jpg) center/cover no-repeat; ;
+    
+    /* background-color: #3d0606 center/cover no-repeat; Change the path to your background image */
+    
+  }
+  
+  .header-container {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffea00; /* White text color */
+    font-size: 22px;
+    /* background-color: #ffffff46; */
+    /* background: url(food2.jpg); */
+    border-radius: 3px;
+    border-style: hidden;
+
+    
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333; /* Dark text color */
+  }
+  
+  .query-input {
+    background-color: rgb(40, 0, 66); /* Semi-transparent white background */
+
+    background-color: #000000;
+    background-image: radial-gradient( 45% 85% at 65% 65%, rgba(13, 58, 216, 0.8) 0%, rgba(0, 0, 0, 0) 100% ), radial-gradient(35% 70% at 35% 50%, #9d0303 0%, rgba(0, 0, 0, 0) 79.09%);
+        
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease; /* Fade in animation */
+    font-size: 20px;
+    width: 800px;
+    color: #fff;
+  }
+  
+ 
+  .query-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    background-color: #f7ecfacc;
+  }
+  
+  .query-input button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    transition: background-color 0.3s;
+  }
+  
+  .query-input button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+ .query-input .tb{
+    
+    width: 70px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    background-color: #e0c601;
+    height: 17px;
+    color: #000000;
+    transition: background-color 0.3s;
+
+ }
+
+ .query-input .tb:hover{
+    background-color: #b36500; /* Darker blue on hover */
+    color: #fff;
+    transform: scale(0.9,0.9);
+    cursor: pointer;
+ }
+  .foods-table {
+
+    width: 100%;
+    /* height: 100%; */
+    /* overflow-: scroll; */
+    margin-bottom: 20px;
+    /* table-layout: fixed; */
+    border: #f0cdcd;
+    /* border-radius: 15px; */
+    animation: fadeInUp 1s ease; 
+  }
+  
+  .foods-table table {
+    width: 100%;
+    background-color: #eeceff2b;
+    /* overflow: hidden; */
+    border-collapse: collapse;
+    border: #d8bbbb;
+    /* border-radius: 15px; */
+  }
+  
+  .foods-table th, .foods-table td {
+    border: 2px solid #dcadef8f;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff707;
+    
+  }
+  
+  .food-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    object-fit:cover;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .delete-icon:hover {
+    transform: scale(1.2); /* Scale up on hover */
+  }
+  
+  .tc {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: fadeIn 1s ease; /* Fade in animation */
+    color: #ffffff;
+  }
+  
+  .nutrition-facts {
+    background-color: rgb(0, 0, 0); /* Semi-transparent white background */
+    background-image: linear-gradient(315deg, #d5ddf8, #fff 57%);
+    
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.464); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    animation: fadeInUp 1s ease; /* Fade in animation */
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */
+  }
+  
+  .nutrition-facts h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .nutrition-facts h6 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+
+
+  /* 
+  
+  
+  
+  */

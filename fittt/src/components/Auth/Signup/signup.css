@@ -1,0 +1,108 @@
+
+
+/* Signup Container */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eaadf44f; /* Blue background color */
+}
+
+/* Signup Form */
+.signup-form {
+  background-color: #210138; /* White background color */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  width: 350px;
+  /* height: 450px; */
+  text-align: center;
+}
+
+/* Heading */
+.signup-form h2 {
+  color: #ffffffe2; /* Dark text color */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Error Messages */
+.error-message {
+  color: #dc3545; /* Red color for errors */
+  margin-top: 10px;
+}
+
+/* Form Elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  text-align: left; /* Align labels to the left */
+  margin-bottom: 8px;
+  color: #333; /* Dark text color */
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007bff; /* Blue border color on focus */
+}
+
+/* Button */
+
+
+/* Link */
+.login-link {
+  color: #f4e4ff; /* Blue text color */
+  text-decoration: none;
+  
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.login-link:hover {
+  color: #ff9f00; /* Darker blue on hover */
+}
+.submit-button2 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit-button2:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.submit-button2:active {
+  transform: scale(0.95);
+}

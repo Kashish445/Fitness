@@ -1,0 +1,72 @@
+/* cal.css */
+
+.aa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #3b2851, #6600cc);
+  margin: 0;
+}
+
+.call {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 600px;
+  font-size: 18px;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+  color: #6600cc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 10px 0;
+  color: #6600cc;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #6600cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #4d0080;
+}
+
+h3 {
+  text-align: center;
+  color: #6600cc;
+  margin-top: 20px;
+}

@@ -1,0 +1,170 @@
+/* // Login.css */
+
+/* Login Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eaadf44f; /* Purple background color */
+}
+
+/* Login Form */
+.login-form {
+  background-color: #210138; /* Darker purple background color */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+/* Heading */
+.login-form h2 {
+  color: #ffffff; /* White text color */
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Error Messages */
+.error-message {
+  color: #e44d75; /* Pink color for errors */
+  margin-top: 10px;
+}
+
+/* Form Elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  max-width: 200px;
+  padding: 15px;
+  border: 1px solid #290055; /* Lighter purple border color */
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #f2ecf8e7; /* Lighter purple background color */
+  color: #ffffff; /* White text color */
+  transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #ff9f00; /* Orange border color on focus */
+  background-color: #ffffff; /* White background color on focus */
+  color: #04010b; /* Darker purple text color on focus */
+}
+.myp{
+    margin-top: 10px;
+    color: #ffffffbb;
+    font-size: 13px;
+}
+/* Button */
+
+strong{
+    color: rgba(255, 255, 255, 0.73);
+    
+        display: block;
+        align-items: center;
+        text-align: left; /* Align labels to the left */
+        margin-bottom: 8px;
+        color: #ffffff; /* White text color */
+        /* font-weight: bold; */
+        font-size: 13px;
+      
+}
+/* Link */
+.create-account-link {
+  color: #ffffff; /* White text color */
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.create-account-link:hover {
+  color: #ff9f00; /* Orange on hover */
+}
+
+
+
+
+/* CSS */
+/* .submit-button1 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit-button1:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.submit-button1:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .submit-button1{
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+} */
+/* }<!-- HTML !-->
+<button class="button-89" role="button">Button 89</button> */
+
+/* CSS */
+
+/* CSS */
+.submit-button1 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit-button1:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.submit-button1:active {
+  transform: scale(0.95);
+}

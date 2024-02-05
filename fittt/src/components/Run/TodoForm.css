@@ -1,0 +1,93 @@
+/* *input form
+
+.todo-input-form {
+    text-align: center;
+  }
+  
+  .todo-input {
+    font-size: 18px;
+    padding: 5px;
+    width: 500px;
+    max-width: 100%;
+    background-color: lightgray;
+  }
+  
+  .todo-input-edit {
+    width: 100%;
+    color: blue;
+    background-color: rgb(238, 238, 238);
+  }
+  
+  .todo-input,
+  .todo-input-edit {
+    border: 0px;
+    border-bottom: 1px solid black;
+  }
+  
+  .todo-input:focus-visible,
+  .todo-input-edit:focus-visible {
+    outline-style: none;
+    outline-width: 0px;
+  } *//* TodoForm.css */
+
+.todo-input-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-input-edit,
+.todo-input {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.todo-input-edit {
+  background-color: #f8f8f8; /* Lighter color for edit input */
+}
+
+.todo-input {
+  background-color: #fff;
+   /* Default color for input */
+}
+
+.todo-input-form:hover .todo-input-edit,
+.todo-input-form:hover .todo-input {
+  border-color: #4caf50; /* Border color on hover */
+}
+
+.todo-input-form:hover .todo-input {
+  border-color: #3498db; /* Border color on hover */
+}
+
+.todo-input-form:hover .todo-input-edit {
+  border-color: #e74c3c; /* Border color on hover for edit input */
+}
+
+.todo-input-form:hover .todo-input,
+.todo-input-form:hover .todo-input-edit {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.todo-input-form:hover .todo-input-edit {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Shadow on hover for edit input */
+}
+
+.todo-input-form svg {
+  color: #3498db; /* Color for the edit icon */
+  margin-right: 10px;
+}
+
+.todo-input-edit::placeholder,
+.todo-input::placeholder {
+  color: #aaa; /* Placeholder color */
+}
+
+.todo-input-form:hover .todo-input-edit::placeholder,
+.todo-input-form:hover .todo-input::placeholder {
+  color: #555; /* Placeholder color on hover */
+}

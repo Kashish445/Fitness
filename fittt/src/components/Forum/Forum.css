@@ -1,0 +1,176 @@
+.App1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  background-image: linear-gradient(123.35deg, #AEDFFC 0%, #4285F4 5%, rgba(174, 223, 252, 0) 18.4%), 
+                  radial-gradient(29.9% 70.94% at 44.25% 86.96%, #6C8DDC 0%, rgba(108, 141, 220, 0) 100%), 
+                  radial-gradient(33.83% 53.57% at 35.87% 100%, #6C8DDC 6%, rgba(108, 141, 220, 0) 100%), 
+                  radial-gradient(42.66% 49.72% at 45.56% 44.65%, #9FADEB 3%, rgba(159, 186, 241, 0) 100%), 
+                  linear-gradient(134.59deg, #B2E5FF 20.63%, rgba(178, 229, 255, 0) 47.84%), 
+                  linear-gradient(216.44deg, rgba(173, 194, 255, 0) -16.52%, #ADCAFF -1.04%, rgba(173, 194, 255, 0) 16.99%), 
+                  linear-gradient(128.53deg, rgba(173, 194, 255, 0) 28.63%, #ADCAFF 38.5%, rgba(173, 194, 255, 0) 50.26%), 
+                  radial-gradient(40.75% 97.37% at 90.75% 40.15%, #C5E1FF 0%, #B3D6FF 34.46%, #A0C1FF 39.5%, rgba(159, 186, 241, 0) 100%);
+
+}
+button {
+  padding: 10px 15px;
+  background-color: #e80c6f; /* Green color, you can change it */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.AnswersPanel {
+  width: 50%;
+  background-image: linear-gradient(123.35deg, #AEDFFC 0%,pink 5%, rgba(174, 223, 252, 0) 18.4%), 
+                  radial-gradient(29.9% 70.94% at 44.25% 86.96%, #6C8DDC 0%, rgba(108, 141, 220, 0) 100%), 
+                  radial-gradient(33.83% 53.57% at 35.87% 100%, purple 6%, rgba(108, 141, 220, 0) 100%), 
+                  radial-gradient(42.66% 49.72% at 45.56% 44.65%, pink 3%, rgba(159, 186, 241, 0) 100%), 
+                  linear-gradient(134.59deg, #B2E5FF 20.63%, rgba(178, 229, 255, 0) 47.84%), 
+                  linear-gradient(216.44deg, rgba(173, 194, 255, 0) -16.52%, #ADCAFF -1.04%, rgba(173, 194, 255, 0) 16.99%), 
+                  linear-gradient(128.53deg, rgba(173, 194, 255, 0) 28.63%, rgb(87, 41, 144).5%, rgba(173, 194, 255, 0) 50.26%), 
+                  radial-gradient(40.75% 97.37% at 90.75% 40.15%, #C5E1FF 0%, #B3D6FF 34.46%, #A0C1FF 39.5%, rgba(159, 186, 241, 0) 100%);
+
+
+  
+
+}
+.QuestionsPanel h2{
+  font-size: 22px;
+  height: 40px;
+  text-align: center;
+  border-radius: 3px;
+  background-image: linear-gradient(123.35deg, #EBF3D0 0%, rgba(235, 243, 208, 0) 18.4%), radial-gradient(29.9% 70.94% at 44.25% 86.96%, #DC8DDC 0%, rgba(220, 141, 220, 0) 100%), radial-gradient(33.83% 53.57% at 35.87% 100%, #DC8DDC 0%, rgba(220, 141, 220, 0) 100%), radial-gradient(42.66% 49.72% at 45.56% 44.65%, #CBADEB 0%, rgba(194, 166, 241, 0) 100%), linear-gradient(134.59deg, #CDF9E8 20.63%, rgba(205, 249, 232, 0) 47.84%), linear-gradient(216.44deg, rgba(192, 169, 240, 0) -16.52%, #C0A9F0 -1.04%, rgba(192, 169, 240, 0) 16.99%), linear-gradient(128.53deg, rgba(192, 169, 240, 0) 28.63%, #C0A9F0 38.5%, rgba(192, 169, 240, 0) 50.26%), radial-gradient(40.75% 97.37% at 90.75% 40.15%, #FFFDB1 0%, #FEE4BF 34.46%, #F0BDD0 69.5%, rgba(255, 129, 38, 0) 100%);
+background-image: linear-gradient(to right, rgb(233, 213, 255), rgb(192, 132, 252), rgb(107, 33, 168));
+background-image: linear-gradient(to left,pink,#FF9DA1 50.45%);
+}
+.QuestionsPanel ul {
+  list-style: none;
+  padding: 0;
+  background-image: linear-gradient(123.35deg, #EBF3D0 0%, rgba(235, 243, 208, 0) 18.4%), radial-gradient(29.9% 70.94% at 44.25% 86.96%, #DC8DDC 0%, rgba(220, 141, 220, 0) 100%), radial-gradient(33.83% 53.57% at 35.87% 100%, #DC8DDC 0%, rgba(220, 141, 220, 0) 100%), radial-gradient(42.66% 49.72% at 45.56% 44.65%, #CBADEB 0%, rgba(194, 166, 241, 0) 100%), linear-gradient(134.59deg, #CDF9E8 20.63%, rgba(205, 249, 232, 0) 47.84%), linear-gradient(216.44deg, rgba(192, 169, 240, 0) -16.52%, #C0A9F0 -1.04%, rgba(192, 169, 240, 0) 16.99%), linear-gradient(128.53deg, rgba(192, 169, 240, 0) 28.63%, #C0A9F0 38.5%, rgba(192, 169, 240, 0) 50.26%), radial-gradient(40.75% 97.37% at 90.75% 40.15%, #FFFDB1 0%, #FEE4BF 34.46%, #F0BDD0 69.5%, rgba(255, 129, 38, 0) 100%);
+background-image: linear-gradient(to right, rgb(233, 213, 255), rgb(192, 132, 252), rgb(107, 33, 168));
+background-image: linear-gradient(163.3deg, #F7EAEA 11.54%, #FF9DA1 90.45%);
+border-color:lightcoral;
+background-color:green;
+}
+
+ .QuestionsPanel li {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  border: 2px solid #ec1d70;
+  border-radius: 5px;
+}
+
+.Answer {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ed1c88;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  background-image: linear-gradient(163.3deg, #F7EAEA 11.54%, #FF9DA1 90.45%);
+  border-color:lightcoral;
+  
+}
+
+button {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* ... (existing styles) */
+
+.QuestionsPanel {
+    /* Add specific styles for the QuestionsPanel */
+    width: 40%;
+    min-height: 93.4vh;
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    box-shadow: 1px 0 1px 0 #ccc;
+    z-index: 3;
+  }
+
+.bb input{
+  width: 100%;
+  margin-right: 10px;
+  color: rgb(138, 34, 186);
+  border: 2px solid white;
+  font-size: 19px;
+  background-image: linear-gradient(163.3deg, #F7EAEA 11.54%, #FF9DA1 90.45%);
+  border-color:lightcoral;
+
+}
+  
+  
+  /* ... (existing styles) */
+
+.AnswersPanel {
+    width: 60%;
+    min-height: 93.4vh;
+    background-image: linear-gradient(163.3deg, #F7EAEA 11.54%, #FF9DA1 90.45%);
+    border-color:lightcoral;
+    padding: 40px 60px 40px 80px;
+    overflow-y: scroll;
+  }
+  
+  .Answer {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: 80px;
+    font-size: 20px;
+    background-image: linear-gradient(163.3deg, #F7EAEA 11.54%, #FF9DA1 90.45%);
+  border-color:lightcoral;
+  }
+  
+  .Answer p {
+    margin-bottom: 10px;
+  }
+  
+  .Answer button {
+    
+    padding: 8px 12px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background:palevioletred;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+    
+  }
+  
+  .Answer button:hover {
+    background: #73a1c4;
+  }
+  
+  /* ... (rest of the styles) */
+  
+  textarea {
+    /* Add specific styles for the textarea */
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    margin-top: 15px;
+    color: gray;
+    font-size: 19px;
+  }
+  
+  /* ... (rest of the styles) */
+  

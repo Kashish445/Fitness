@@ -1,0 +1,63 @@
+/* styles.css */
+
+#app-container {
+  text-align: center;
+  margin: 20px;
+  background-image: url("https://th.bing.com/th/id/OIP.hy3rGYDpRzHmjglTR5Np5gHaFL?w=1024&h=717&rs=1&pid=ImgDetMain");
+  background-size: cover;
+}
+
+.challenge-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  height: 200px;
+  text-align: center;
+  width: 30%;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.challenge-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.accepted {
+  background-color: green; /* Example color for accepted challenges */
+}
+
+.challenge-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ .container{
+  background-color: aqua;
+ } 
+  .challenge-box {
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  
+    p {
+      text-align: center;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  }
+  
